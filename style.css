@@ -290,3 +290,29 @@ header p{
 .about_article .btn{
     margin-top:2.4rem;
 }
+
+/* clients */
+
+#clients{
+    text-align:center;
+}
+
+.clients_container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:2rem;
+}
+
+
+.clients_container div{
+    background-color: var(--color-light);
+    display:grid;
+    place-items:center;
+    height:8rem;
+    padding:3rem;
+    transition:all 300ms ease;
+}
+
+.clients_container div:hover{
+    background-color:var(--color-white);
+}
