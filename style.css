@@ -316,3 +316,151 @@ header p{
 .clients_container div:hover{
     background-color:var(--color-white);
 }
+
+/* testimonals */
+
+#testimonals{
+    text-align:center;
+    margin-top:3rem;
+}
+
+.testimonials_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1.2rem;
+}
+
+.testimonal{
+    display:flex;
+    flex-direction:column;
+    gap:1.4rem;
+    background:var(--color-light);
+    padding:3rem;
+    font-size:0.88rem;
+    border:1px solid transparent;
+}
+
+.testimonal:hover{
+    background:var(--color-white);
+    border-color:var(--color-primary);
+    color:var(--color-primary);
+    box-shadow:0 2rem 2rem var(--color-primary-variant);
+    z-index:1;
+    transition: 300ms ease-in-out;
+}
+
+.testimonial_client
+{
+    display:flex;
+    gap:1rem;
+}
+
+
+/* Faqs==== */
+
+#faqs h1{
+    text-align:center;
+    margin-bottom:4rem;
+}
+
+
+.faqs_container{
+    width:44%;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+
+
+.faq{
+    background:var(--color-light);
+    padding:2rem;
+    display:flex;
+    gap:1rem;
+    border:1px solid #ddd;
+    cursor:pointer;
+
+
+}
+
+
+
+
+.faq:hover{
+    border-color:var(--color-primary);
+    color:var(--color-primary);
+}
+
+
+.faq_icon{
+    font-size:1.4rem;
+    font-weight:200;
+}
+
+
+.faq_question{
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+
+.faq_answer{
+    margin-top:1rem;
+    display:none;
+}
+
+.faq.open{
+    border-color:var(--color-primary);
+    color:var(--color-primary);
+    box-shadow: 0 2rem 2rem var(--color-primary-variant);
+    z-index:1;
+}
+
+
+.faq.open .faq_answer{
+    display:block;
+}
+
+
+/* download app section */
+
+
+
+.downloadApp_container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    
+}
+
+
+.downloadApp_content{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+
+
+#downloadApp .cta{
+    justify-content: start;
+    margin-top:2rem;
+}
+
+
+.subscribe_container{
+    background:var(--color-primary);
+    color:var(--color-white);
+    display:flex;
+    align-items:center;
+    padding:4rem;
+    height:20rem;
+    border-radius:2rem;
+
+}
+
+.subscribe_text p{
+    margin-top:1.4rem;
+    width:80%;
+}
