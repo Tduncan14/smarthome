@@ -431,6 +431,7 @@ header p{
     display:grid;
     grid-template-columns:1fr 1fr;
     align-items:center;
+
     
 }
 
@@ -457,6 +458,7 @@ header p{
     padding:4rem;
     height:20rem;
     border-radius:2rem;
+    margin-bottom:7rem;
 
 }
 
@@ -464,3 +466,28 @@ header p{
     margin-top:1.4rem;
     width:80%;
 }
+
+
+/* footer */
+
+
+footer{
+    background:var(--color-primary);
+    padding-top:5rem;
+    font-size:0.9rem;
+    color:rgba(255,255,255,0.8);
+}
+
+.footer_container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-content: space-between;
+    gap:5rem;
+}
+
+.footer_container > div h4{
+    margin-bottom:1.6rem;
+    color:var(--color-white);
+}
+
+
